@@ -13,28 +13,71 @@
       </div>
     </div>
     <!-- Classes Section -->
-    <div class="pitch text-center" id="why">
+<div class="pitch text-center" id="why">
       <div class="container">
         <div class="pitch-intro">
-          <h1 class="wow fadeInDown"  data-wow-delay="0.2s">Why Motivation is Important</h1>
-          <p class="wow fadeInDown"  data-wow-delay="0.2s">If you want to achieve greatness, you need to stop asking for permission. This is why motivation is important in life because it stops asking questions and aligns you to work towards your goals.
+          <h1 class="wow fadeInDown" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInDown;">Why Motivation is Important</h1>
+          <p class="wow fadeInDown" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInDown;">If you want to achieve greatness, you need to stop asking for permission. This is why motivation is important in life because it stops asking questions and aligns you to work towards your goals.
 
 Goals are the stepping stones toward your dreams so in order to achieve them, you need motivation to keep you chugging along towards them.</p>
         </div>
         
         <div class="col-md-12">
-        @foreach ($users as $user)
-   
+           
 
-          <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s">
+          <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInDown;">
             <div class="pitch-icon"> <i class="ion-ios-checkmark-outline"></i> </div>
             <div class="pitch-content">
-              <h1>{{$user->title}}</h1>
-              <p> {{$user->why}} </p>
+              <h1>Increases your effort</h1>
+              <p> Yes, motivation increases your effort. Without motivation, you may feel lazy and stay in a slumpy mood </p>
             </div>
           </div>
- @endforeach
-        </div>
+    
+
+          <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInDown;">
+            <div class="pitch-icon"> <i class="ion-ios-checkmark-outline"></i> </div>
+            <div class="pitch-content">
+              <h1>boosts productivity</h1>
+              <p> The second benefit of motivation is that it boosts your productivity. Motivation doesn’t just make you work harder, but faster as well. </p>
+            </div>
+          </div>
+    
+
+          <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInDown;">
+            <div class="pitch-icon"> <i class="ion-ios-checkmark-outline"></i> </div>
+            <div class="pitch-content">
+              <h1>helps you go against all odds and see the possibilities</h1>
+              <p> You need the motivation to go through tough times. It is easy to take action, be happy, and enjoy life when everything is smooth and going according to your plan. </p>
+            </div>
+          </div>
+    
+
+          <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInDown;">
+            <div class="pitch-icon"> <i class="ion-ios-checkmark-outline"></i> </div>
+            <div class="pitch-content">
+              <h1>can influence others</h1>
+              <p> Imagine working in a negative environment where everyone is back-stabbing each other and where everyone’s level of motivation is low, do you want to work in this kind of environment? </p>
+            </div>
+          </div>
+    
+
+          <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInDown;">
+            <div class="pitch-icon"> <i class="ion-ios-checkmark-outline"></i> </div>
+            <div class="pitch-content">
+              <h1>builds your habits</h1>
+              <p> When an action becomes a habit, we still require some motivation to execute the habit, just that the energy required will be much lower. </p>
+            </div>
+          </div>
+    
+
+          <div class="col-md-4 wow fadeInDown" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInDown;">
+            <div class="pitch-icon"> <i class="ion-ios-checkmark-outline"></i> </div>
+            <div class="pitch-content">
+              <h1>makes the process and journey fun</h1>
+              <p> Yes, without motivation, things are going to be boring. Just like reading this article, if you are not feeling motivated to read, highly likely, you are going to just read the sub-headings and maybe even stop reading at some point </p>
+            </div>
+          </div>
+         </div>
       </div>
     </div>
     <!-- Features Section -->
@@ -84,29 +127,46 @@ Goals are the stepping stones toward your dreams so in order to achieve them, yo
      <!-- Bold call to action Section -->
 
     
-     <!-- Client Section -->
-    <div class="review-section" id="review">
+<div class="review-section" id="review">
       <div class="container">
         <div class="col-md-10 col-md-offset-1">
-          <div class="reviews owl-carousel owl-theme">
+          <div class="reviews owl-carousel owl-theme" style="opacity: 1; display: block;">
 
-@foreach($long_stories as $ls)
-            <div class="review-single">
+            <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 5520px; left: 0px; display: block; transform: translate3d(-1840px, 0px, 0px); transition: all 200ms ease 0s;"><div class="owl-item" style="width: 920px;"><div class="review-single">
           
-              <div class="review-text wow fadeInUp" data-wow-delay="0.2s">
-              <h2 style="padding: 9px;    font-size: xxx-large;">{{$ls->title}}</h2>
-                <p>{{$ls->short_text}}</p>
+              <div class="review-text wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+              <h2 style="padding: 9px;    font-size: xxx-large;">The important things in life</h2>
+                <p>A philosophy professor stood before his class with some items on the table in front of him. When the class began, wordlessly he picked up a very large and empty mayonnaise jar and proceeded to fill it with rocks</p>
                 <a href="#" class="btn btn-action wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;" bis_skin_checked="1">Continue Reading</a>
                
             
               </div>
-            </div>
-@endforeach
+            </div></div><div class="owl-item" style="width: 920px;"><div class="review-single">
+          
+              <div class="review-text wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+              <h2 style="padding: 9px;    font-size: xxx-large;">Live and Work</h2>
+                <p>Father was a hardworking man who delivered bread as a living to support his wife and three children. He spent all his evenings after work attending classes, hoping to improve himself so that he could one day find a better paying job. Except for Sundays</p>
+                <a href="#" class="btn btn-action wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;" bis_skin_checked="1">Continue Reading</a>
+               
+            
+              </div>
+            </div></div><div class="owl-item" style="width: 920px;"><div class="review-single">
+          
+              <div class="review-text wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+              <h2 style="padding: 9px;    font-size: xxx-large;">An Old Man Lived in the Village</h2>
+                <p>An old man lived in the village. He was one of the most unfortunate people in the world. The whole village was tired of him; he was always gloomy, he constantly complained and was always in a bad mood.
+The longer he lived, the more bile he was becoming and ...</p>
+                <a href="#" class="btn btn-action wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;" bis_skin_checked="1">Continue Reading</a>
+               
+            
+              </div>
+            </div></div></div></div>
+            
+            
           </div>
         </div>
       </div>
     </div>
-    <!-- Package Section -->
    
     
     <!-- Subscribe Form -->
@@ -144,7 +204,7 @@ Goals are the stepping stones toward your dreams so in order to achieve them, yo
             <li><a href="https://www.instagram.com/motivationwithus1"><i class="fab fa-instagram"></i></a></li>
             <li><a href="https://github.com/souhailbakioui"><i class="fab fa-github"></i></a></li>
             <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://twitter.com/russelmhardy"><i class="fab fa-twitter"></i></a></li>
             
            
           </ul>
