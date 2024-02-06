@@ -229,11 +229,11 @@ The longer he lived, the more bile he was becoming and ...</p>
 <!-- Wrapper--> 
 
 <!-- Jquery and Js Plugins --> 
-<script type="text/javascript" src="{{ asset('js/jquery-2.1.1.js') }}"></script> 
-<script type="text/javascript" src="{{ asset('js/bootstrap.min.js') }}"></script> 
-<script type="text/javascript" src="{{ asset('js/plugins.js') }}"></script> 
-<script type="text/javascript" src="{{ asset('js/menu.js') }}"></script> 
-<script type="text/javascript" src="{{ asset('js/custom.js') }}"></script> 
+<script type="text/javascript" src="{{ mix('js/jquery-2.1.1.js') }}"></script> 
+<script type="text/javascript" src="{{ mix('js/bootstrap.min.js') }}"></script> 
+<script type="text/javascript" src="{{ mix('js/plugins.js') }}"></script> 
+<script type="text/javascript" src="{{ mix('js/menu.js') }}"></script> 
+<script type="text/javascript" src="{{ mix('js/custom.js') }}"></script> 
 <script src="{{ asset('js/jquery.subscribe.js') }}"></script>
 <script src="{{ asset('js/main.js') }}"></script>
 <script>
