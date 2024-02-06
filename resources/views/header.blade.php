@@ -11,11 +11,11 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
-<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="{{ asset('css/animate.css') }}">
 <!-- Resource style -->
-<link rel="stylesheet" href="css/owl.carousel.css">
-<link rel="stylesheet" href="css/owl.theme.css">
-<link rel="stylesheet" href="css/ionicons.min.css">
+<link rel="stylesheet" href="{{ asset('css/owl.carousel.css') }}">
+<link rel="stylesheet" href="{{ asset('css/owl.theme.css') }}">
+<link rel="stylesheet" href="{{ asset('css/ionicons.min.css') }}">
 <!-- Resource style -->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 
